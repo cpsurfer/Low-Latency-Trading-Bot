@@ -33,7 +33,7 @@ g++ market.cpp -o market
 ### 2. The Trader (HFT Engine)
 In a separate terminal, run the bot. (Sudo required for CPU pinning).
 ```bash
-g++ -O3 -march=native trader.cpp -o trader
+g++ -O3 -march=native buy_or_sell.cpp -o trader
 sudo ./trader
 ```
 ### 3. The faster Trader (HFT Engine)
