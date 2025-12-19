@@ -26,7 +26,7 @@ All tests run on standard Linux kernel (Loopback UDP).
 ### 1. The Market (Simulator)
 This acts as the exchange, broadcasting prices.
 ```bash
-g++ market.cpp -o market
+g++ market_simulation.cpp -o market
 ./market
 ```
 
